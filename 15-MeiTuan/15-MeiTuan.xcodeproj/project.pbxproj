@@ -45,6 +45,7 @@
 		4CE4FF5B1B8305AC0008CE29 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4FF5A1B8305AC0008CE29 /* StringExtensions.swift */; };
 		4CED84EA1B8F3B3200437033 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CED84E91B8F3B3200437033 /* BaiduMapAPI.framework */; };
 		4CED84EC1B9036D700437033 /* MerchantHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED84EB1B9036D700437033 /* MerchantHeaderView.swift */; };
+		96AA2F611BABF623003B30CA /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 96AA2F601BABF623003B30CA /* Headers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,7 @@
 		4CE4FF5A1B8305AC0008CE29 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		4CED84E91B8F3B3200437033 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
 		4CED84EB1B9036D700437033 /* MerchantHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantHeaderView.swift; sourceTree = "<group>"; };
+		96AA2F601BABF623003B30CA /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = BaiduMapAPI.framework/Headers; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +326,7 @@
 		4C7FABB91B80DA51005854D9 /* Merchant */ = {
 			isa = PBXGroup;
 			children = (
+				96AA2F601BABF623003B30CA /* Headers */,
 				4C7FABBA1B80DA6F005854D9 /* Controller */,
 				4C7FABBB1B80DA6F005854D9 /* Model */,
 				4C7FABBC1B80DA6F005854D9 /* Other */,
@@ -593,6 +596,7 @@
 				4C7FABCF1B81B351005854D9 /* cate.json in Resources */,
 				4CE400021B8383C00008CE29 /* cities.json in Resources */,
 				4C8541231B953956008BB6F6 /* gif in Resources */,
+				96AA2F611BABF623003B30CA /* Headers in Resources */,
 				4C740D1D1B8E0A5300FE69E4 /* mapapi.bundle in Resources */,
 				4C7FAB871B808D3E005854D9 /* Images.xcassets in Resources */,
 			);

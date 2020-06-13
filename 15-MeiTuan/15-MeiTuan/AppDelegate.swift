@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate,BMKLoca
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        //底部导航
         self.window?.rootViewController = MNTabBarController()
         self.window?.makeKeyAndVisible()
        // loadCityData()
